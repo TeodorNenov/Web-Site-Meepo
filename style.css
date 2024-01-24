@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.logo{
+    padding-right: ;
+}
+.logo img{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row h1{
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row figure{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+.row img{
+    width: 100%;
+    height: auto;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+.col-2:hover img{
+    transform: translateY(-5px);
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+.col-2 p{
+    margin-left: 30px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin:30px 10px;
+    border-radius:30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background-color: #fff;
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 50px 0;
+    background: radial-gradient(rgb(255, 255, 255) , #747474);
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 150px;
+}
+.col-3 img{
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.5s;
+}
+.col-3:hover img{
+    transform: translateY(-5px);
+}
+.small-container{
+    
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-container h1{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    color: rgb(48, 47, 47); 
+}
+.col-4{
+    flex-basis: 40%;
+    min-width: 200px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555; 
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform:translateY(-5px);
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 40px 0 20px;
+    margin-top: 100px;
+}
+.footer p{
+    color: #8a8a8a;
+    margin: 20px;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+.footer-col-2{
+
+    text-align: center;
+}
+.footer-col-3{
+    flex-basis: 30%;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3{
+    text-align: center;
+}
+.footer-col-3 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram{
+    background: #C71585;
+    color: white;
+}
+.fa-youtube{
+    background: #B22222;
+    color: white;
+}
+.app-logo{
+    margin-top: 20px;
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+
+}
+
+/*------------------------------------------------- Second Page ----------------------------------------------------------*/
+/*-----FirstRowSettings-----*/
+.firstRowPageTwo{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.small-containerPageTwo{
+    margin-left: 20%;
+    margin-right: 17%;
+}
+/*-First Board-*/
+.NLSBoard{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.NLSBoard img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.NLSBoard:hover{
+    transform:translateY(-5px);
+}
+/*-SecondBoard-*/
+.Meepov3Board{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.Meepov3Board img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Meepov3Board:hover{
+    transform:translateY(-5px);
+}
+/*-Third Board-*/
+.MeepoCityRider2-1Board{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.MeepoCityRider2-1Board img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MeepoCityRider2-1Board:hover{
+    transform:translateY(-5px);
+}
+/*-----SecondRowSettings-----*/
+.secondRowPageTwo{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+/*- FouthBoard-*/
+.MeepoMini2-1Board{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.MeepoMini2-1Board img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MeepoMini2-1Board:hover{
+    transform:translateY(-5px);
+}
+/*-FifthBoard-*/
+.MeepoHurricane{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.MeepoHurricane img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MeepoHurricane:hover{
+    transform:translateY(-5px);
+}
+/*-Sixth Board-*/
+.MeepoNLSPro{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.MeepoNLSPro img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MeepoNLSPro:hover{
+    transform:translateY(-5px);
+}
+/*-----ThirdRowSettings-----*/
+.thirdRowPageTwo{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+/*-Seventh Product-*/
+.MeepoHelmet{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.MeepoHelmet img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MeepoHelmet:hover{
+    transform:translateY(-5px);
+}
+/*-Eight Product-*/
+.MeepoRemote{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.MeepoRemote img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MeepoRemote:hover{
+    transform:translateY(-5px);
+}
+/*-Nineth Product-*/
+.MeepoBatery{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 60%;
+    min-width: 400px;
+    transition: transform 0.5s;
+}
+.MeepoBatery img{
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MeepoBatery:hover{
+    transform:translateY(-5px);
+}
+
+/*------------------------------------------Page Meepo V3----------------------------------------*/   
+.containerV3{
+    margin-left: 160px;
+    margin-top: 50px;
+
+}
+.imageV3 img{
+    border: 2px groove #000000;
+    border-radius: 10%;
+}
+
+/*-------- media query for menu-----*/
+@media only screen and (max-width: 800px){
+    nav ul{
+        position:absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;    
+    }
+}
+/*--- all producst---*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border:1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline:none;
+}
+
+
+
+
+
+
+
+/*-----media query for less than 600 screeen size ------*/
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4 , .NLSBoard{
+        flex-basis: 100%;
+    } 
+}

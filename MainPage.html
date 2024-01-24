@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meepo Boards</title>
+    <link rel="stylesheet" href=" style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="file:///C:/Site/MainPage.html" class="btnMeepoLogo"><img src="images/logo-client-1-reworked.png" alt="" width="125"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="file:///C:\Coding\Projects\FirstSiteMeepo\MainPage.html">Home</a></li>
+                    <li><a href="file:///C:\Coding\Projects\FirstSiteMeepo\AllProducts.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30" height="30" alt="">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="">
+
+        </div>
+        <div class="row">
+            <h1>Ride it on the streets,mountains,in house,in the ocean even fly with it!</h1>
+            <figure>
+               <img src="images/front-img.jpg" alt="">
+            </figure>
+            <div class="col-2">
+                <h1>The Fastest Board!</h1>
+                <p>Meepo Board V3 available now!</p>
+                <p>Only for 449.00 USD</p>
+                <a href="file:///C:\Coding\Projects\FirstSiteMeepo\Meepov3Page.html" class="btn">Explore Now &#8594; </a>
+            </div>
+            <div class="col-2"> 
+                <img src="images/board-side.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="categories">
+        <div class="small-container">
+            <h1>Other products</h1>
+            <div class="row">
+                <div class="col-3">
+                    <a href="file:///C:\Coding\Projects\FirstSiteMeepo\MeepoMini2-1Page.html" class="btnForMini2-1"><img src="images/MEEPO_MINI_2-1_grande.jpg" alt=""></a>
+                    <h4>Meepo Mini 2</h4>
+                    <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>449.00 USD</p>
+                </div>
+                <div class="col-3">
+                    <a href="file:///C:\Coding\Projects\FirstSiteMeepo\MeepoCityRider2-1Page.html" class="btnForRider2"><img src="images/MeepoCityRider2_1_600x.jpg" alt=""></a>
+                    <h4>Meepo City Rider 2</h4>
+                    <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>899.00 USD</p>
+                </div>
+                <div class="col-3">
+                    <a href="file:///C:\Coding\Projects\FirstSiteMeepo\MeepoBateryPage.html" class="btnForBatery"><img src="images/Batery.jpg" alt=""></a>
+                    <h4>Batery</h4>
+                    <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>129.99 USD</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container" >
+        <h1 class="title">Featured Products</h1>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/red-board.jpg" alt="">
+                <h4>Meepo NLS Belt</h4>
+                <p>799.00 USD</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="images/logo-client-1-reworked.png" alt="">
+                </div>
+                <div class="footer-col-3">
+                    <h1>Follow Us</h1>
+                    <ul>
+                        <li><h3><a href="https://www.facebook.com/Meepoboard" class="fa fa-facebook"></a></li>
+                        <li><h3><a href="https://www.instagram.com/meepoboard/" class="fa fa-instagram"></a></li>
+                        <li><h3><a href="https://www.youtube.com/c/MeepoElectricSkateboard" class="fa fa-youtube"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p>Created By Teodor Nenov</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
